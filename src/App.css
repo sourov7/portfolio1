@@ -1,0 +1,226 @@
+.App {
+  text-align: center;
+}
+.robotoFont {
+  font-family: 'Raleway', sans-serif;
+}
+
+.material-icons {
+
+  color: #212529 !important;
+
+}
+
+.headerColor{
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.headerNavColor{
+  color:#212529 !important;
+  text-decoration: none !important;
+  font-size: 13px !important;
+  font-family: 'Raleway', sans-serif !;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+}
+
+.measure{
+  background-size: auto;
+  /* width: 100%;
+  height: 665px; */
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+}
+.image{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  justify-content: center;
+  margin-top: 80px;
+  color: white;
+  /* border : 1px solid transparent; */
+}
+.jumboSpace {
+  padding-bottom: 10px;
+}
+ /* <hr>= Horizontal tag for color removing  */
+.horizontalColor{
+  border: 0;
+  background-color:#212529;
+}
+.backgroundColor{
+
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+  opacity: 80;
+}
+
+
+/* Header position sticky */
+.stickynab{
+  position: sticky;
+  top: 0;
+}
+/* ====== social link =================== */
+
+.socalLink {
+  padding: 5px;
+  justify-content: space-between;
+  /* width:50%; */
+  display: flex;
+  text-align: center;
+}
+.socalLink a {
+ text-align: center; 
+ margin: 0 auto;
+ color:#212529;
+}
+.socalLink a :hover{
+  color:#bdc3c7;
+ }
+.socalLink i {
+  
+  text-align: center; 
+  font-size: 35px;
+}
+ /* ================== Jumborton Letter spacing */
+.letterSapcing{
+  /* justify-content: space-between; */
+  letter-spacing: 2px;
+}
+.letterSapcing-h{
+  /* justify-content: space-between; */
+  letter-spacing: 5px;
+} 
+
+
+/* ===================== Projects page =================== */
+.cardImage1{
+  background-image: url("./images/web apps.jpg");
+   
+  color: #fff;
+  height: 200px;
+  position:  center ;
+}
+.cardImage2{
+  background-image: url("./images/React-Blogs.png");
+  height: 200px;
+  position:  center ;
+}
+.cardImage3{
+  background-image: url("./images/React-Blogs.png");
+   
+  color: #fff;
+  height: 200px;
+  position:  center ;
+}
+.text-center{
+  text-align: center !important;
+}
+
+  /* ======================= Particle js ================================ */
+
+  .particlebg{
+    
+    height: 100vh;
+    color:black;
+    
+  }
+  .particleclass{
+    
+    top: 0;
+    right: 0;
+    bottom :0;
+    left: 0;
+    z-index:;
+    position : absolute;
+  }
+  .psitionrelatice{
+    
+    position: relative;
+    z-index: 1;
+
+  }
+
+   /****  ================ Contact Compoment ================= */
+   .contactimage{
+     border-radius: 50%;
+   }
+.contactTitle{
+  font-family:Roboto;
+  font-weight:800;
+  font-size:30px;
+}
+.containerBackground{
+  /* background-color:#ecf0f1; */
+   background-color :#dfe6e9;
+  
+}
+.contactBody{
+  height:100vh;
+  background-color: black;
+  
+}
+.contactList{
+  margin-top: 80px;
+  
+}
+/* .contactList ul  {
+  text-decoration: none;
+  list-style: none;
+}
+.contactList ul li a  {
+  text-decoration: none;
+ text-align: left;
+  color:black;
+}
+.contactList ul li a span {
+
+  padding-left: 30px;
+  text-align: right;
+  
+}
+.contactList ul li a i {
+  
+  padding-right: 30px;
+  color:#212529;
+  font-size: 30px;
+  overflow: hidden;
+}
+.phoneSpace a i{
+  padding: 50px;
+} */
+
+.iconeSize{
+  font-size: 35px;
+  padding:4px;
+  color: #e17055;
+  /* color: #C52A62; */
+}
+.iconeSize a i:hover {
+  color: black;
+}
+.contactInfo{
+  font-family: Roboto;
+  font-size: 25px;
+  color: 
+  
+}
+.forHigherInfo{
+  font-family: Roboto;
+  font-size: 20px;
+  
+}
+.letter-spacing{
+  letter-spacing: 1px;
+}
+.letter-spacingIconText{
+  letter-spacing: .5px;
+}
